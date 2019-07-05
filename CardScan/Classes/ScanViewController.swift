@@ -166,11 +166,7 @@ import Vision
     }
     
     @objc static public func isCompatible() -> Bool {
-        if #available(iOS 11.0, *) {
-            return true
-        } else {
-            return false
-        }
+       return true
     }
     
     @objc static public func cameraImage() -> UIImage? {
